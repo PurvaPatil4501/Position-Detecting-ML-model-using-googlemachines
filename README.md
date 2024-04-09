@@ -1,12 +1,13 @@
 # Position-Detecting-ML-model-using-googlemachines
 This is Python code for the machine learning model for positions detecting machine learning model. This model detects the human postures like sitting,standing and sleeping. I hope this repository will help you with the code. The further modifications might also be done by adding new postures or classes.
 
-
+# importing the essential libraries
 import cv2
 import numpy as np
 import tensorflow as tf
 import json
-from teachablemachinepose import TMPose
+from teachablemachinepose import TMPose  (This is for actual importing of model)
+# link - https://teachablemachine.withgoogle.com/models/HglBwRMSW/
 
 # Load the model
 url = "https://teachablemachine.withgoogle.com/models/HglBwRMSW/"
